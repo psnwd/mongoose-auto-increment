@@ -104,5 +104,5 @@ UserSchema.plugin(plugin, {
 
 9. Export your model with the TypeScript interface:
 ```ts
-export default connection.model<UserInput>("land", UserSchema) as any;
+export default connection.model<UserInput>("user", UserSchema) as any;
 ```
